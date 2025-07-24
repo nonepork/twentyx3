@@ -8,5 +8,5 @@ toaster = WindowsToaster("twentyx3")
 def notify(text: str):
     toast = Toast()
     toast.text_fields = [text]
-    toast.AddImage(ToastDisplayImage.fromPath("./assets/icon.png"))
+    toast.AddImage(ToastDisplayImage.fromPath("src/assets/icon.png"))
     toaster.show_toast(toast)

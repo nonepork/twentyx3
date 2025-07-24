@@ -3,13 +3,14 @@ from PIL import Image
 from pystray import Icon
 from pystray import Menu
 from pystray import MenuItem
-from state import TimerState
+
+from src.state import TimerState
 
 
 def create_tray(state: TimerState, main_thread):
     icon = Icon(
         "twentyx3",
-        Image.open("./assets/icon.png"),
+        Image.open("src/assets/icon.png"),
         "twentyx3",
         menu=Menu(
             MenuItem(

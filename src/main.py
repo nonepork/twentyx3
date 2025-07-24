@@ -1,9 +1,9 @@
 from threading import Thread
 
-from countdown import draw_timer
-from notify import notify
-from state import TimerState
-from tray import create_tray
+from src.countdown import draw_timer
+from src.notify import notify
+from src.state import TimerState
+from src.tray import create_tray
 
 
 def main_loop(state: TimerState):
@@ -24,7 +24,3 @@ def run():
     main_thread.start()
     icon = create_tray(state, main_thread)
     icon.run()
-
-
-if __name__ == "__main__":
-    run()

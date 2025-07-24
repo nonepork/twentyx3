@@ -1,7 +1,8 @@
 import pygame
 import win32con
 import win32gui
-from state import TimerState
+
+from src.state import TimerState
 
 pygame.font.init()
 

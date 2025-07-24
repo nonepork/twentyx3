@@ -1,6 +1,8 @@
-# twentyx3
+<div align="center">
+    <img src="src/assets/banner.png" alt="Logo">
+</div>
 
-A *forced* eye rester for windows. Original by ZXTube
+A *forced* eye rester for windows. Original by ZXTube  
 An app that forces you every 20 minutes to look at something 20 feet away for 20 seconds
 
 ### How to use
@@ -9,10 +11,10 @@ You can change the timer seconds in file
 
 ---
 ### Preview:
-![coutndown](https://github.com/nonepork/20-20-20/assets/59335048/d63d78a3-782f-4dd3-8f0b-8e164ba958c4)
-![199344797-784b96a0-0e14-4797-bb9e-30f53d4697ca](https://github.com/nonepork/20-20-20/assets/59335048/450611e9-bb41-46fe-ad38-493482ee245d)
+![preview1](src/assets/preivew1.png)
+![preview2](src/assets/preivew2.png)
 
 ---
 ### Mode
 
-Gamermode: Same countdown but able to quit once pressed esc.
+Gamer mode: Able to quit fullscreen countdown by pressing esc.
