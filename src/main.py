@@ -7,12 +7,16 @@ from src.tray import create_tray
 
 
 def main_loop(state: TimerState):
+    primed = False
     while not state.exit_event.is_set():
-        if not draw_timer(5, False, state):
-            state.exit_event.wait(1200)
-            continue
+        if primed:
+            if not draw_timer(5, False, state):
+                state.exit_event.wait(1200)
+                continue
 
-        draw_timer(20, True, state)
+            draw_timer(20, True, state)
+        else:
+            primed = True
 
         state.exit_event.wait(1200)
 

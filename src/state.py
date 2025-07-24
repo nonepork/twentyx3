@@ -4,7 +4,6 @@ from threading import Event
 class TimerState:
     def __init__(self):
         self.exit_event = Event()
-        self.first_run = True
         self.gamer_enabled = False
         self.running = False
 
