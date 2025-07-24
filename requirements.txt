@@ -1,5 +1,5 @@
 Pillow
-pygame
+pygame-ce
 pystray
 pywin32
 windows_toasts

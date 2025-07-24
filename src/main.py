@@ -5,6 +5,8 @@ from src.notify import notify
 from src.state import TimerState
 from src.tray import create_tray
 
+__version__ = "1.0.0"
+
 
 def main_loop(state: TimerState):
     primed = False
