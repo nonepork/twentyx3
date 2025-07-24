@@ -11,7 +11,7 @@ from src.state import TimerState
 def create_tray(state: TimerState, main_thread):
     icon = Icon(
         "twentyx3",
-        Image.open(resource_path("icon.png")),
+        Image.open(resource_path("src/assets/icon.png")),
         "twentyx3",
         menu=Menu(
             MenuItem(

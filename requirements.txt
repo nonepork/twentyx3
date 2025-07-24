@@ -1,6 +1,5 @@
 Pillow
 pygame
 pystray
-python_dateutil
 pywin32
-Windows_Toasts
+windows_toasts
