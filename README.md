@@ -8,8 +8,11 @@ An app that forces you every 20 minutes to look at something 20 feet away for 20
 ---
 
 ### How to use
-Simply open the program, and it'll start countdown
-You can change the timer seconds in file
+**Windows**
+You can download the compiled version at [here](https://github.com/nonepork/twentyx3/releases/tag/Latest)  
+Or you could build it yourself using the build.bat
+**Other platforms**
+Since this uses windows api, the likeihood of it getting port to other platforms are, well not much.
 
 ---
 ### Preview:
