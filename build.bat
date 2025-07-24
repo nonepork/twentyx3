@@ -26,9 +26,9 @@ copy %DIST_DIR%\*.exe %RELEASE_DIR% >nul
 
 echo Cleaning up...
 call %VENV_DIR%\Scripts\deactivate.bat
-rmdir /s /q %VENV_DIR%
-rmdir /s /q build
-rmdir /s /q %DIST_DIR%
-del /q twentyx3.spec
+if exist build rmdir /s /q build
+if exist %VENV_DIR% rmdir /s /q %VENV_DIR%
+if exist %DIST_DIR% rmdir /s /q %DIST_DIR%
+if exist twentyx3.spec del /q twentyx3.spec
 
-echo Done! EXE is in %RELEASE_DIR%\
+echo Done! EXE is in %RELEASE_DIR% folder.
